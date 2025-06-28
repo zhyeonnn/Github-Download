@@ -32,6 +32,8 @@ git이 설치되었을 때는 아래와 같이 나타난다.
     <pre>
     git add .
     git commit -m "first commit"
+    git remote add origin "해당 레포 주소"
+    git push origin master
     </pre>
     - add . : 점(.)은 모든 파일이 들어갈 수 있도록 설정
     - commit -m "해당 repo의 설명"을 추가
